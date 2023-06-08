@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230608 16:17:21.633" rpa="false" schemaversion="3">
+<suite id="s1" name="Demo" source="C:\Users\Soumaya\Desktop\session3\Rabeh-Script\ROBOT\RobotProjet2\Test_Cases\demo.robot">
+<test id="s1-t1" name="tc01 login_test" line="14">
+<kw name="se connecter au site demo orange">
+<msg timestamp="20230608 16:17:21.650" level="FAIL">No keyword with name 'se connecter au site demo orange' found.</msg>
+<status status="FAIL" starttime="20230608 16:17:21.650" endtime="20230608 16:17:21.650"/>
+</kw>
+<kw name="remplir le formulaire de login">
+<status status="NOT RUN" starttime="20230608 16:17:21.652" endtime="20230608 16:17:21.652"/>
+</kw>
+<kw name="valider l'affichagee de la page d'acceuil">
+<status status="NOT RUN" starttime="20230608 16:17:21.653" endtime="20230608 16:17:21.653"/>
+</kw>
+<kw name="fermer le Navigateur">
+<status status="NOT RUN" starttime="20230608 16:17:21.654" endtime="20230608 16:17:21.654"/>
+</kw>
+<doc>Ce test est pour tester la fonctionnalité login_test
+tester le happy path ou sunny day ou nominal</doc>
+<status status="FAIL" starttime="20230608 16:17:21.649" endtime="20230608 16:17:21.656">No keyword with name 'se connecter au site demo orange' found.</status>
+</test>
+<test id="s1-t2" name="tc02 logout_test" line="22">
+<kw name="se connecter au site demo orange">
+<msg timestamp="20230608 16:17:21.659" level="FAIL">No keyword with name 'se connecter au site demo orange' found.</msg>
+<status status="FAIL" starttime="20230608 16:17:21.659" endtime="20230608 16:17:21.659"/>
+</kw>
+<kw name="remplir le formulaire de login">
+<status status="NOT RUN" starttime="20230608 16:17:21.661" endtime="20230608 16:17:21.661"/>
+</kw>
+<kw name="valider l'affichagee de la page d'acceuil">
+<status status="NOT RUN" starttime="20230608 16:17:21.662" endtime="20230608 16:17:21.662"/>
+</kw>
+<kw name="se deconnecter de l'application orange demo">
+<status status="NOT RUN" starttime="20230608 16:17:21.663" endtime="20230608 16:17:21.663"/>
+</kw>
+<kw name="fermer le Navigateur">
+<status status="NOT RUN" starttime="20230608 16:17:21.664" endtime="20230608 16:17:21.664"/>
+</kw>
+<status status="FAIL" starttime="20230608 16:17:21.658" endtime="20230608 16:17:21.665">No keyword with name 'se connecter au site demo orange' found.</status>
+</test>
+<doc>.\Resultats\</doc>
+<status status="FAIL" starttime="20230608 16:17:21.634" endtime="20230608 16:17:21.667"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230608 16:17:21.645" level="WARN">Imported resource file 'C:\Users\Soumaya\Desktop\session3\Rabeh-Script\ROBOT\RobotProjet2\Ressources\ressources1.robot' is empty.</msg>
+</errors>
+</robot>
